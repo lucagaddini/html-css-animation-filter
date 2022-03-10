@@ -68,3 +68,47 @@
   filter: grayscale(50%) sepia(60%);
   border-radius: 15px;
 }
+
+/* Esercizio 9  */
+.ex-9-img{
+  transition: 2s;
+}
+.ex-9-img:hover{
+  filter: grayscale(50%) sepia(60%);
+  border-radius: 15px;
+  transform: scale(1.2);
+}
+
+/* Esercizio 10  */
+.ex-10-icon{
+  animation-name: spin;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes spin {
+  0%{
+    transform: rotate(1turn);
+  }
+}
+
+/* Esercizio 11  */
+.ex-11-icon:hover{
+  animation-name: spin2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+@keyframes spin2{
+  0%{
+    transform: rotate(0);
+  }
+  75%{
+    transform: rotate(300deg);
+  }
+  100%{
+    transform: rotate(0);
+
+  }
+}
