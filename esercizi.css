@@ -1,0 +1,54 @@
+
+
+/* Esercizio 1 */
+.ex-1-square{
+  transition: background-color 2s;
+}
+
+.ex-1-square:hover{
+  background-color: red;
+}
+
+/* Esercizio 2  */
+.ex-2-square{
+  transition: width 2s;
+}
+
+.ex-2-square:active{
+  width: 100%;
+}
+
+/* Esercizio 3  */
+.ex-3-square{
+  transition: border-radius 2s;
+}
+
+.ex-3-square:hover{
+  border-radius: 50%;
+}
+
+/* Esercizio 4  */
+.ex-4-square{
+  transition: opacity 2s;
+}
+
+.ex-4-square:hover{
+  opacity: 0%;
+}
+
+/* Esercizio 5  */
+.ex-5-square{
+  transition: width, height, margin, 2s;
+}
+
+.ex-5-square:hover{
+  margin: 5px;
+  width: 100px;
+  height: 100px;
+}
+
+.ex-5-square:active{
+  margin: 40px;
+  width: 20px;
+  height: 20px;
+}
