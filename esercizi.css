@@ -113,7 +113,7 @@
   }
 }
 
-
+/* Esercizio 12  */
 .ex-12-button:hover .ex-12-top-white{
   animation-name: orizzontale;
   animation-duration: 3s;
@@ -150,3 +150,4 @@
     right: 10%;
   }
 }
+
