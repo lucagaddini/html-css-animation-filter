@@ -115,6 +115,8 @@
 
 
 .ex-12-button:hover .ex-12-top-white{
-  top: -10px;
   left: 65%;
+}
+.ex-12-button:hover .ex-12-bottom-white{
+  right: 65%;
 }
