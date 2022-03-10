@@ -131,6 +131,22 @@
     left: 10%;
   }
 }
+
 .ex-12-button:hover .ex-12-bottom-white{
-  right: 65%;
+  animation-name: orizzontale2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes orizzontale2 {
+  0%{
+    right: 10%;
+  }
+  50%{
+    right: 65%;
+  }
+  100%{
+    right: 10%;
+  }
 }
