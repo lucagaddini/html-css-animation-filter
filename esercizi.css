@@ -34,7 +34,7 @@
 
 /* Esercizio 5  */
 .ex-5-square{
-  transition: width, height, margin, 2s;
+  transition: all 2s;
 }
 .ex-5-square:hover{
   transform: scale(2);
@@ -45,7 +45,7 @@
 
 /* Esercizio 6  */
 .ex-6-img:hover{
-  filter: grayscale(100%);
+  filter: grayscale(1);
 }
 
 /* Esercizio 7  */
