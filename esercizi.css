@@ -50,27 +50,27 @@
 
 /* Esercizio 7  */
 .ex-7-img{
-  transition: filter 2s;
+  transition: all 2s;
 }
 .ex-7-img:hover{
-  filter: grayscale(50%) sepia(60%);
+  filter: grayscale(.5) sepia(.6);
 }
 
 /* Esercizio 8  */
 .ex-8-img{
-  transition: 2s;
+  transition: all 2s;
 }
 .ex-8-img:hover{
-  filter: grayscale(50%) sepia(60%);
+  filter: grayscale(0.) sepia(0.6);
   border-radius: 15px;
 }
 
 /* Esercizio 9  */
 .ex-9-img{
-  transition: 2s;
+  transition: all 2s;
 }
 .ex-9-img:hover{
-  filter: grayscale(50%) sepia(60%);
+  filter: grayscale(.5) sepia(.6);
   border-radius: 15px;
   transform: scale(1.2);
 }
