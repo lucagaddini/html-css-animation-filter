@@ -72,7 +72,7 @@
 .ex-9-img:hover{
   filter: grayscale(.5) sepia(.6);
   border-radius: 15px;
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
 
 /* Esercizio 10  */
@@ -81,6 +81,9 @@
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+
+  /* Versione contratta
+  animation: spin 2s linear infinite; */
 }
 @keyframes spin {
   0%{
